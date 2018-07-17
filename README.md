@@ -4,8 +4,6 @@
 [![Travis Status][trav_img]][trav_site]
 ReactJS based Presentation Library
 
-[Spectacle Boilerplate](https://github.com/FormidableLabs/spectacle-boilerplate/)
-
 ## Contents
 
 <!-- MarkdownTOC depth=4 autolink=true bracket=round autoanchor=true -->
@@ -63,13 +61,11 @@ ReactJS based Presentation Library
 
 The new best way to get started is by running `create-react-app my-presentation --scripts-version spectacle-scripts`. This will use `create-react-app` to create almost everything you need. This however, doesn't include publish scripts, and ejecting is required for fancy stuff.
 
-The second best way to get started is by using the [Spectacle Boilerplate](https://github.com/FormidableLabs/spectacle-boilerplate).
+Another way to get started is by using the [Spectacle Boilerplate](https://github.com/FormidableLabs/spectacle-boilerplate).
 
 Alternatively, you can `npm install spectacle` and write your own build configurations. We also provide full UMD builds (with a `Spectacle` global variable) of the library at `dist/spectacle.js` and `dist/spectacle.min.js` for more general use cases. You could, for example, include the library via a script tag with: `https://unpkg.com/spectacle@VERSION/dist/spectacle.min.js`.
 
 Note that we have webpack externals for `react`, `react-dom`, and `prop-types`, so you will need to provide them in your upstream build or something like linking in via `script` tags in your HTML page for all three libraries. This comports with our project dependencies which place these three libraries in `peerDependencies`.
-
-But really, it is SO much easier to just use the boilerplate. Trust me.
 
 <a name="one-page"></a>
 
